@@ -1,0 +1,23 @@
+zip codes within 20.0 miles:
+     64423 Barnard, MO 10.34 
+     64427 Bolckow, MO 15.65 
+     64428 Burlington Junction, MO 12.44 
+     64431 Clearmont, MO 14.36 
+     64432 Clyde, MO 12.04 
+     64433 Conception, MO 12.15 
+     64434 Conception Junction, MO 9.16 
+     64445 Elmo, MO 18.18 
+     64455 Graham, MO 13.13 
+     64457 Guilford, MO 15.99 
+     64461 Hopkins, MO 12.91 
+     64466 Maitland, MO 16.01 
+     64468 Maryville, MO 0.00 
+     64475 Parnell, MO 15.01 
+     64476 Pickering, MO 7.49 
+     64478 Quitman, MO 11.53 
+     64479 Ravenwood, MO 10.60 
+     64486 Sheridan, MO 18.53 
+     64487 Skidmore, MO 11.89 
+     64489 Stanberry, MO 19.32 
+
+The farthest locaiton is: 64489, Stanberry, MO, 19.32
