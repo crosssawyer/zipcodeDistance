@@ -3,6 +3,8 @@ package project01;
 import java.util.*;
 import java.io.*;
 import javax.swing.*;
+import javax.swing.JFileChooser;
+import javax.swing.JOptionPane;
 
 /*
  * @Sawyer Cross
@@ -15,9 +17,17 @@ public class Project01 {
     static String maxCity = "";
 
     public static void main(String[] args) throws FileNotFoundException {
-        JFileChooser fileChoose = new JFileChooser(); //file selection
-        fileChoose.showOpenDialog(null);
-        File inputFile = fileChoose.getSelectedFile();
+        JFileChooser chooser = new JFileChooser(); //file selection
+        int openFiledialog = chooser.showOpenDialog(null);
+        while (openFiledialog == JFileChooser.APPROVE_OPTION
+        && !chooser.getSelectedFile().getName().endsWith(".txt")) 
+        {
+        JOptionPane.showMessageDialog(null, "The file "
+        + chooser.getSelectedFile() + " is a .txt source file.",
+        "Open Error", JOptionPane.ERROR_MESSAGE);
+        openFiledialog = chooser.showOpenDialog(null);
+        }
+        File inputFile = chooser.getSelectedFile();
         Scanner readFile = new Scanner(inputFile);
         Scanner userinput = new Scanner(System.in); //scanner to get info from user
 
