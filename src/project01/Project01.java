@@ -52,6 +52,15 @@ public class Project01 {
                 + "within the given proximity.\n");
     }
 
+    public static boolean isaNumber(String number){
+        try{
+            Integer.parseInt(number);
+            return true;
+        } catch (NumberFormatException msg){
+            return false;
+        }
+    }
+
     public static String find(String target, Scanner input) { //method to find zip and then return the lat/long of that zip
         String latlong = "0,0";
         while (input.hasNext()) { //while loop that stores each line as a variable to allow comparison of zip

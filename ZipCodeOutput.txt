@@ -1,4 +1,15 @@
-zip codes within 20.0 miles:
+zip codes within 30.0 miles:
+     50833 Bedford, IA 24.33 
+     50836 Blockton, IA 28.49 
+     51630 Blanchard, IA 24.62 
+     51631 Braddyville, IA 20.19 
+     51632 Clarinda, IA 28.68 
+     51636 Coin, IA 28.98 
+     51637 College Springs, IA 22.81 
+     51646 New Market, IA 27.02 
+     51651 Shambaugh, IA 23.18 
+     64402 Albany, MO 29.32 
+     64420 Allendale, MO 25.55 
      64423 Barnard, MO 10.34 
      64427 Bolckow, MO 15.65 
      64428 Burlington Junction, MO 12.44 
@@ -6,18 +17,36 @@ zip codes within 20.0 miles:
      64432 Clyde, MO 12.04 
      64433 Conception, MO 12.15 
      64434 Conception Junction, MO 9.16 
+     64437 Craig, MO 28.28 
+     64438 Darlington, MO 27.22 
      64445 Elmo, MO 18.18 
+     64446 Fairfax, MO 28.59 
+     64449 Fillmore, MO 21.46 
+     64451 Forest City, MO 29.78 
+     64453 Gentry, MO 22.38 
      64455 Graham, MO 13.13 
+     64456 Grant City, MO 27.66 
      64457 Guilford, MO 15.99 
      64461 Hopkins, MO 12.91 
+     64463 King City, MO 27.92 
+     64464 Polk, MO 27.78 
      64466 Maitland, MO 16.01 
      64468 Maryville, MO 0.00 
+     64470 Mound City, MO 23.08 
+     64473 Oregon, MO 27.13 
      64475 Parnell, MO 15.01 
      64476 Pickering, MO 7.49 
      64478 Quitman, MO 11.53 
      64479 Ravenwood, MO 10.60 
+     64480 Rea, MO 21.04 
+     64483 Rosendale, MO 21.11 
+     64485 Savannah, MO 27.32 
      64486 Sheridan, MO 18.53 
      64487 Skidmore, MO 11.89 
      64489 Stanberry, MO 19.32 
+     64491 Tarkio, MO 26.94 
+     64494 Union Star, MO 28.69 
+     64498 Westboro, MO 28.72 
+     64499 Worth, MO 23.25 
 
-The farthest locaiton is: 64489, Stanberry, MO, 19.32
+The farthest locaiton is: 64451, Forest City, MO, 29.78
