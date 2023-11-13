@@ -40,8 +40,14 @@ public class Project01 {
             zipcode = userinput.nextLine();
         }
         System.out.print("And what proximity (in miles)?: ");
-        double miles = userinput.nextDouble();
+        String string_miles = userinput.nextLine();
 
+        while (validateMiles(string_miles) != true) {
+            System.out.print("And what proximity (in miles)?: ");
+            string_miles = userinput.nextLine();
+        }
+
+        double miles = Double.parseDouble(string_miles);
         String cords = find(zipcode, readFile);
         readFile = new Scanner(inputFile);
         showMatches(cords, readFile, miles);
@@ -79,6 +85,20 @@ public class Project01 {
         }
     }
 
+    public static boolean validateMiles(String miles) {
+        try {
+            double miles_check = Double.parseDouble(miles);
+            if (miles_check <= 0) {
+                System.out.println("Number must be bigger than 0. ");
+                return false;
+            }
+            return true;
+        } catch (NumberFormatException msg) {
+            System.out.println("Input must be a number. ");
+            return false;
+        }
+    }
+
     public static String find(String target, Scanner input) { // method to find zip and then return the lat/long of that
                                                               // zip
         String latlong = "0,0";
@@ -96,8 +116,10 @@ public class Project01 {
         }
         return latlong;
     }
-    //method which matches all within the distance and return that list while outputting to a file as well  
-    public static void showMatches(String targetCoordinates, Scanner input, double miles) throws FileNotFoundException { 
+
+    // method which matches all within the distance and return that list while
+    // outputting to a file as well
+    public static void showMatches(String targetCoordinates, Scanner input, double miles) throws FileNotFoundException {
         PrintWriter outputFile = new PrintWriter("ZipCodeOutput.txt");
         String[][] fulllist = new String[43191][3];
         while (input.hasNext()) {
