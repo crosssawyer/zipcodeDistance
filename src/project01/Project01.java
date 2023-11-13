@@ -34,6 +34,11 @@ public class Project01 {
         giveIntro(); //intro to gather input from user
         System.out.print("What zip code are you interested in? ");
         String zipcode = userinput.nextLine();
+        
+        while (validateZip(zipcode) != true) { //while loop to run check to validate zipCode, checks is num, length and not null
+        System.out.print("What zip code are you interested in? ");
+        zipcode = userinput.nextLine();
+        }
         System.out.print("And what proximity (in miles)?: ");
         double miles = userinput.nextDouble();
 
@@ -58,6 +63,20 @@ public class Project01 {
             return true;
         } catch (NumberFormatException msg){
             return false;
+        }
+    }
+
+    public static boolean validateZip(String zipCode){
+        if (isaNumber(zipCode) == false){
+            System.out.println("Must be a number of length 5. ");
+            return false;
+        }
+        if(zipCode.length() != 5){
+            System.out.println("The length of a zip MUST be 5. ");
+            return false;
+        }
+        else{
+            return true;
         }
     }
 

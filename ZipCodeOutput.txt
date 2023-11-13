@@ -1,52 +1,509 @@
-zip codes within 30.0 miles:
-     50833 Bedford, IA 24.33 
-     50836 Blockton, IA 28.49 
-     51630 Blanchard, IA 24.62 
-     51631 Braddyville, IA 20.19 
-     51632 Clarinda, IA 28.68 
-     51636 Coin, IA 28.98 
-     51637 College Springs, IA 22.81 
-     51646 New Market, IA 27.02 
-     51651 Shambaugh, IA 23.18 
-     64402 Albany, MO 29.32 
-     64420 Allendale, MO 25.55 
-     64423 Barnard, MO 10.34 
-     64427 Bolckow, MO 15.65 
-     64428 Burlington Junction, MO 12.44 
-     64431 Clearmont, MO 14.36 
-     64432 Clyde, MO 12.04 
-     64433 Conception, MO 12.15 
-     64434 Conception Junction, MO 9.16 
-     64437 Craig, MO 28.28 
-     64438 Darlington, MO 27.22 
-     64445 Elmo, MO 18.18 
-     64446 Fairfax, MO 28.59 
-     64449 Fillmore, MO 21.46 
-     64451 Forest City, MO 29.78 
-     64453 Gentry, MO 22.38 
-     64455 Graham, MO 13.13 
-     64456 Grant City, MO 27.66 
-     64457 Guilford, MO 15.99 
-     64461 Hopkins, MO 12.91 
-     64463 King City, MO 27.92 
-     64464 Polk, MO 27.78 
-     64466 Maitland, MO 16.01 
-     64468 Maryville, MO 0.00 
-     64470 Mound City, MO 23.08 
-     64473 Oregon, MO 27.13 
-     64475 Parnell, MO 15.01 
-     64476 Pickering, MO 7.49 
-     64478 Quitman, MO 11.53 
-     64479 Ravenwood, MO 10.60 
-     64480 Rea, MO 21.04 
-     64483 Rosendale, MO 21.11 
-     64485 Savannah, MO 27.32 
-     64486 Sheridan, MO 18.53 
-     64487 Skidmore, MO 11.89 
-     64489 Stanberry, MO 19.32 
-     64491 Tarkio, MO 26.94 
-     64494 Union Star, MO 28.69 
-     64498 Westboro, MO 28.72 
-     64499 Worth, MO 23.25 
+zip codes within 20.0 miles:
+     20001 Washington, DC 1.47 
+     20002 Washington, DC 0.00 
+     20003 Washington, DC 1.40 
+     20004 Washington, DC 2.02 
+     20005 Washington, DC 2.15 
+     20006 Washington, DC 2.76 
+     20007 Washington, DC 4.42 
+     20008 Washington, DC 4.37 
+     20009 Washington, DC 2.79 
+     20010 Washington, DC 3.00 
+     20011 Washington, DC 3.83 
+     20012 Washington, DC 5.64 
+     20013 Washington, DC 1.40 
+     20015 Washington, DC 6.00 
+     20016 Washington, DC 5.83 
+     20017 Washington, DC 2.46 
+     20018 Washington, DC 2.04 
+     20019 Washington, DC 2.93 
+     20020 Washington, DC 2.87 
+     20024 Washington, DC 2.31 
+     20026 Washington, DC 1.40 
+     20029 Washington, DC 1.40 
+     20030 Washington, DC 1.40 
+     20032 Washington, DC 4.56 
+     20033 Washington, DC 1.40 
+     20035 Washington, DC 1.40 
+     20036 Washington, DC 2.74 
+     20037 Washington, DC 3.24 
+     20038 Washington, DC 1.40 
+     20039 Washington, DC 1.40 
+     20040 Washington, DC 1.40 
+     20041 Washington, DC 1.40 
+     20042 Washington, DC 1.40 
+     20043 Washington, DC 1.40 
+     20044 Washington, DC 1.40 
+     20045 Washington, DC 2.23 
+     20046 Washington, DC 1.40 
+     20047 Washington, DC 1.40 
+     20049 Washington, DC 1.66 
+     20050 Washington, DC 1.40 
+     20051 Washington, DC 1.40 
+     20052 Washington, DC 3.06 
+     20053 Washington, DC 1.40 
+     20055 Washington, DC 1.61 
+     20056 Washington, DC 1.40 
+     20057 Washington, DC 1.40 
+     20058 Washington, DC 1.40 
+     20059 Washington, DC 1.40 
+     20060 Washington, DC 1.94 
+     20061 Washington, DC 1.40 
+     20062 Washington, DC 2.47 
+     20063 Washington, DC 3.00 
+     20064 Washington, DC 2.18 
+     20065 Washington, DC 2.37 
+     20066 Washington, DC 1.40 
+     20067 Washington, DC 1.40 
+     20068 Washington, DC 1.40 
+     20069 Washington, DC 1.40 
+     20070 Washington, DC 1.40 
+     20071 Washington, DC 1.40 
+     20073 Washington, DC 1.86 
+     20074 Washington, DC 1.40 
+     20075 Washington, DC 1.40 
+     20076 Washington, DC 1.40 
+     20077 Washington, DC 1.40 
+     20078 Washington, DC 1.40 
+     20080 Washington, DC 1.40 
+     20081 Washington, DC 1.40 
+     20082 Washington, DC 1.40 
+     20088 Washington, DC 1.40 
+     20090 Washington, DC 1.40 
+     20091 Washington, DC 1.40 
+     20097 Washington, DC 1.40 
+     20098 Washington, DC 1.40 
+     20099 Washington, DC 1.40 
+     20122 Centreville, VA 16.72 
+     20153 Chantilly, VA 16.72 
+     20172 Herndon, VA 16.72 
+     20190 Reston, VA 19.50 
+     20191 Reston, VA 19.26 
+     20192 Herndon, VA 16.72 
+     20193 Reston, VA 16.72 
+     20194 Reston, VA 19.80 
+     20195 Reston, VA 16.72 
+     20196 Reston, VA 16.72 
+     20201 Washington, DC 1.40 
+     20202 Washington, DC 1.40 
+     20203 Washington, DC 3.00 
+     20204 Washington, DC 1.40 
+     20206 Washington, DC 1.40 
+     20207 Washington, DC 1.40 
+     20208 Washington, DC 1.17 
+     20210 Washington, DC 1.40 
+     20211 Washington, DC 1.40 
+     20212 Washington, DC 1.40 
+     20213 Washington, DC 1.40 
+     20214 Washington, DC 1.40 
+     20215 Washington, DC 1.40 
+     20216 Washington, DC 1.42 
+     20217 Washington, DC 1.40 
+     20218 Washington, DC 1.40 
+     20219 Washington, DC 1.40 
+     20220 Washington, DC 1.40 
+     20221 Washington, DC 1.40 
+     20222 Washington, DC 1.40 
+     20223 Washington, DC 1.40 
+     20224 Washington, DC 1.40 
+     20226 Washington, DC 1.40 
+     20227 Washington, DC 1.40 
+     20228 Washington, DC 1.40 
+     20229 Washington, DC 1.40 
+     20230 Washington, DC 1.40 
+     20231 Washington, DC 1.40 
+     20232 Washington, DC 2.59 
+     20233 Washington, DC 1.40 
+     20235 Washington, DC 3.68 
+     20238 Washington, DC 1.40 
+     20239 Washington, DC 1.40 
+     20240 Washington, DC 2.70 
+     20241 Washington, DC 1.40 
+     20242 Washington, DC 3.11 
+     20244 Washington, DC 1.40 
+     20245 Washington, DC 1.40 
+     20250 Washington, DC 2.46 
+     20251 Washington, DC 1.40 
+     20254 Washington, DC 1.40 
+     20260 Washington, DC 1.40 
+     20261 Washington, DC 1.40 
+     20262 Washington, DC 1.40 
+     20265 Washington, DC 1.40 
+     20266 Washington, DC 1.40 
+     20268 Washington, DC 1.40 
+     20270 Washington, DC 1.40 
+     20277 Washington, DC 1.40 
+     20289 Washington, DC 1.40 
+     20299 Washington, DC 1.40 
+     20301 Washington, DC 2.32 
+     20303 Washington, DC 1.40 
+     20306 Washington, DC 1.40 
+     20307 Washington, DC 1.40 
+     20310 Washington, DC 1.40 
+     20314 Washington, DC 1.40 
+     20315 Washington, DC 2.36 
+     20317 Washington, DC 2.28 
+     20318 Washington, DC 1.40 
+     20319 Washington, DC 2.71 
+     20330 Washington, DC 1.40 
+     20332 Washington, DC 5.17 
+     20336 Washington, DC 3.92 
+     20337 Washington, DC 1.40 
+     20338 Washington, DC 1.40 
+     20340 Washington, DC 1.40 
+     20350 Washington, DC 1.40 
+     20370 Washington, DC 1.40 
+     20372 Washington, DC 1.40 
+     20373 Washington, DC 1.40 
+     20374 Washington, DC 3.25 
+     20375 Washington, DC 5.73 
+     20380 Washington, DC 1.40 
+     20388 Washington, DC 2.04 
+     20389 Washington, DC 1.40 
+     20390 Washington, DC 1.40 
+     20391 Washington, DC 1.40 
+     20392 Washington, DC 1.40 
+     20393 Washington, DC 1.40 
+     20394 Washington, DC 1.40 
+     20395 Washington, DC 1.40 
+     20398 Washington, DC 1.40 
+     20401 Washington, DC 1.40 
+     20402 Washington, DC 1.40 
+     20403 Washington, DC 1.40 
+     20404 Washington, DC 0.98 
+     20405 Washington, DC 1.40 
+     20406 Washington, DC 1.40 
+     20407 Washington, DC 1.40 
+     20408 Washington, DC 1.40 
+     20409 Washington, DC 1.40 
+     20410 Washington, DC 1.40 
+     20411 Washington, DC 2.08 
+     20412 Washington, DC 1.73 
+     20413 Washington, DC 1.40 
+     20414 Washington, DC 2.08 
+     20415 Washington, DC 1.40 
+     20416 Washington, DC 1.40 
+     20418 Washington, DC 3.56 
+     20419 Washington, DC 1.40 
+     20420 Washington, DC 1.97 
+     20421 Washington, DC 1.40 
+     20422 Washington, DC 1.40 
+     20423 Washington, DC 1.40 
+     20424 Washington, DC 1.40 
+     20425 Washington, DC 1.40 
+     20426 Washington, DC 1.40 
+     20427 Washington, DC 1.40 
+     20428 Washington, DC 1.40 
+     20429 Washington, DC 1.40 
+     20431 Washington, DC 2.79 
+     20433 Washington, DC 2.74 
+     20434 Washington, DC 1.40 
+     20435 Washington, DC 2.66 
+     20436 Washington, DC 1.67 
+     20437 Washington, DC 3.09 
+     20439 Washington, DC 1.40 
+     20440 Washington, DC 3.04 
+     20441 Washington, DC 2.87 
+     20442 Washington, DC 1.49 
+     20444 Washington, DC 1.40 
+     20447 Washington, DC 2.19 
+     20451 Washington, DC 2.89 
+     20453 Washington, DC 1.40 
+     20456 Washington, DC 2.66 
+     20460 Washington, DC 2.31 
+     20463 Washington, DC 1.40 
+     20468 Washington, DC 1.40 
+     20469 Washington, DC 1.40 
+     20470 Washington, DC 1.40 
+     20472 Washington, DC 1.40 
+     20500 Washington, DC 2.47 
+     20501 Washington, DC 2.44 
+     20502 Washington, DC 2.44 
+     20503 Washington, DC 2.80 
+     20504 Washington, DC 1.40 
+     20505 Washington, DC 1.40 
+     20506 Washington, DC 2.52 
+     20507 Washington, DC 1.40 
+     20508 Washington, DC 1.40 
+     20510 Washington, DC 1.40 
+     20515 Washington, DC 1.40 
+     20520 Washington, DC 3.17 
+     20521 Washington, DC 1.40 
+     20522 Washington, DC 3.17 
+     20523 Washington, DC 3.10 
+     20524 Washington, DC 2.24 
+     20525 Washington, DC 1.40 
+     20526 Washington, DC 2.84 
+     20527 Washington, DC 2.43 
+     20530 Washington, DC 1.96 
+     20531 Washington, DC 1.75 
+     20532 Washington, DC 1.43 
+     20533 Washington, DC 2.24 
+     20534 Washington, DC 1.28 
+     20535 Washington, DC 1.91 
+     20536 Washington, DC 1.40 
+     20537 Washington, DC 1.91 
+     20538 Washington, DC 1.40 
+     20539 Washington, DC 1.40 
+     20540 Washington, DC 1.24 
+     20541 Washington, DC 1.24 
+     20542 Washington, DC 3.36 
+     20543 Washington, DC 1.40 
+     20544 Washington, DC 1.40 
+     20546 Washington, DC 1.78 
+     20547 Washington, DC 1.40 
+     20548 Washington, DC 1.46 
+     20549 Washington, DC 1.40 
+     20550 Washington, DC 1.40 
+     20551 Washington, DC 2.99 
+     20552 Washington, DC 1.40 
+     20553 Washington, DC 2.00 
+     20554 Washington, DC 1.40 
+     20555 Washington, DC 2.65 
+     20557 Washington, DC 1.24 
+     20558 Washington, DC 1.40 
+     20559 Washington, DC 1.24 
+     20560 Washington, DC 1.40 
+     20565 Washington, DC 1.65 
+     20566 Washington, DC 3.48 
+     20570 Washington, DC 2.65 
+     20571 Washington, DC 2.34 
+     20572 Washington, DC 1.40 
+     20573 Washington, DC 1.40 
+     20575 Washington, DC 1.40 
+     20576 Washington, DC 1.84 
+     20577 Washington, DC 2.34 
+     20578 Washington, DC 1.40 
+     20579 Washington, DC 2.89 
+     20580 Washington, DC 1.40 
+     20581 Washington, DC 1.40 
+     20585 Washington, DC 1.40 
+     20586 Washington, DC 3.03 
+     20590 Washington, DC 2.08 
+     20591 Washington, DC 1.40 
+     20593 Washington, DC 1.40 
+     20594 Washington, DC 1.88 
+     20597 Washington, DC 1.40 
+     20599 Washington, DC 1.40 
+     20601 Waldorf, MD 19.77 
+     20603 Waldorf, MD 18.75 
+     20607 Accokeek, MD 15.92 
+     20613 Brandywine, MD 17.99 
+     20616 Bryans Road, MD 18.81 
+     20623 Cheltenham, MD 13.63 
+     20697 Southern Md Facility, MD 7.70 
+     20701 Annapolis Junction, MD 18.89 
+     20703 Lanham, MD 7.70 
+     20704 Beltsville, MD 7.70 
+     20705 Beltsville, MD 10.70 
+     20706 Lanham, MD 8.55 
+     20707 Laurel, MD 15.15 
+     20708 Laurel, MD 13.75 
+     20709 Laurel, MD 7.70 
+     20710 Bladensburg, MD 4.27 
+     20711 Lothian, MD 18.30 
+     20712 Mount Rainier, MD 3.11 
+     20715 Bowie, MD 14.32 
+     20716 Bowie, MD 14.46 
+     20717 Bowie, MD 7.70 
+     20718 Bowie, MD 7.70 
+     20719 Bowie, MD 7.70 
+     20720 Bowie, MD 12.47 
+     20721 Bowie, MD 10.64 
+     20722 Brentwood, MD 3.35 
+     20723 Laurel, MD 17.56 
+     20724 Laurel, MD 17.08 
+     20725 Laurel, MD 7.70 
+     20726 Laurel, MD 7.70 
+     20731 Capitol Heights, MD 7.70 
+     20735 Clinton, MD 11.39 
+     20737 Riverdale, MD 5.59 
+     20738 Riverdale, MD 7.70 
+     20740 College Park, MD 7.48 
+     20741 College Park, MD 7.70 
+     20742 College Park, MD 7.70 
+     20743 Capitol Heights, MD 4.66 
+     20744 Fort Washington, MD 10.05 
+     20745 Oxon Hill, MD 6.51 
+     20746 Suitland, MD 5.93 
+     20747 District Heights, MD 6.48 
+     20748 Temple Hills, MD 6.15 
+     20749 Fort Washington, MD 7.70 
+     20750 Oxon Hill, MD 7.70 
+     20752 Suitland, MD 7.70 
+     20753 District Heights, MD 7.70 
+     20755 Fort George G Meade, MD 19.40 
+     20757 Temple Hills, MD 7.70 
+     20759 Fulton, MD 17.19 
+     20762 Andrews Air Force Base, MD 8.06 
+     20763 Savage, MD 18.58 
+     20768 Greenbelt, MD 7.70 
+     20769 Glenn Dale, MD 11.01 
+     20770 Greenbelt, MD 9.23 
+     20771 Greenbelt, MD 7.70 
+     20772 Upper Marlboro, MD 13.59 
+     20773 Upper Marlboro, MD 7.70 
+     20774 Upper Marlboro, MD 9.92 
+     20775 Upper Marlboro, MD 7.70 
+     20777 Highland, MD 18.82 
+     20781 Hyattsville, MD 4.30 
+     20782 Hyattsville, MD 4.58 
+     20783 Hyattsville, MD 6.13 
+     20784 Hyattsville, MD 6.44 
+     20785 Hyattsville, MD 5.62 
+     20787 Hyattsville, MD 5.91 
+     20788 Hyattsville, MD 5.14 
+     20790 Capitol Heights, MD 7.70 
+     20791 Capitol Heights, MD 7.70 
+     20797 Southern Md Facility, MD 7.70 
+     20799 Capitol Heights, MD 7.70 
+     20812 Glen Echo, MD 9.49 
+     20814 Bethesda, MD 9.01 
+     20815 Chevy Chase, MD 7.23 
+     20816 Bethesda, MD 7.69 
+     20817 Bethesda, MD 10.15 
+     20818 Cabin John, MD 10.36 
+     20830 Olney, MD 17.97 
+     20832 Olney, MD 18.08 
+     20833 Brookeville, MD 19.77 
+     20850 Rockville, MD 16.41 
+     20851 Rockville, MD 14.00 
+     20852 Rockville, MD 12.49 
+     20853 Rockville, MD 13.97 
+     20854 Potomac, MD 14.51 
+     20855 Derwood, MD 18.02 
+     20860 Sandy Spring, MD 17.49 
+     20861 Ashton, MD 17.02 
+     20862 Brinklow, MD 19.54 
+     20866 Burtonsville, MD 13.83 
+     20868 Spencerville, MD 15.62 
+     20877 Gaithersburg, MD 19.47 
+     20878 Gaithersburg, MD 19.85 
+     20880 Washington Grove, MD 19.18 
+     20892 Bethesda, MD 9.20 
+     20895 Kensington, MD 9.83 
+     20896 Garrett Park, MD 10.71 
+     20901 Silver Spring, MD 8.26 
+     20902 Silver Spring, MD 10.08 
+     20903 Silver Spring, MD 7.76 
+     20904 Silver Spring, MD 11.57 
+     20905 Silver Spring, MD 14.00 
+     20906 Silver Spring, MD 12.75 
+     20910 Silver Spring, MD 7.16 
+     20912 Takoma Park, MD 5.59 
+     20913 Takoma Park, MD 7.70 
+     21035 Davidsonville, MD 18.30 
+     21054 Gambrills, MD 19.05 
+     21113 Odenton, MD 19.51 
+     21114 Crofton, MD 18.08 
+     22003 Annandale, VA 12.96 
+     22009 Burke, VA 16.72 
+     22015 Burke, VA 17.34 
+     22027 Dunn Loring, VA 12.31 
+     22030 Fairfax, VA 18.51 
+     22031 Fairfax, VA 14.84 
+     22032 Fairfax, VA 17.15 
+     22034 Fairfax, VA 16.72 
+     22036 Fairfax, VA 12.46 
+     22037 Fairfax, VA 16.72 
+     22038 Fairfax, VA 17.06 
+     22040 Falls Church, VA 9.79 
+     22041 Falls Church, VA 8.84 
+     22042 Falls Church, VA 10.89 
+     22043 Falls Church, VA 11.11 
+     22044 Falls Church, VA 9.20 
+     22046 Falls Church, VA 10.27 
+     22047 Falls Church, VA 16.72 
+     22060 Fort Belvoir, VA 16.09 
+     22066 Great Falls, VA 18.11 
+     22067 Greenway, VA 13.71 
+     22079 Lorton, VA 18.17 
+     22081 Merrifield, VA 13.23 
+     22082 Merrifield, VA 16.72 
+     22092 Herndon, VA 16.72 
+     22095 Herndon, VA 16.72 
+     22096 Reston, VA 16.72 
+     22101 McLean, VA 9.73 
+     22102 McLean, VA 12.67 
+     22103 West Mclean, VA 16.72 
+     22106 McLean, VA 16.72 
+     22109 McLean, VA 12.86 
+     22116 Merrifield, VA 13.25 
+     22118 Merrifield, VA 16.72 
+     22119 Merrifield, VA 16.72 
+     22120 Merrifield, VA 16.72 
+     22122 Newington, VA 16.72 
+     22124 Oakton, VA 17.93 
+     22150 Springfield, VA 13.51 
+     22151 Springfield, VA 13.50 
+     22152 Springfield, VA 15.59 
+     22153 Springfield, VA 17.03 
+     22156 Springfield, VA 16.72 
+     22158 Springfield, VA 16.72 
+     22159 Springfield, VA 16.72 
+     22160 Springfield, VA 16.72 
+     22161 Springfield, VA 13.90 
+     22180 Vienna, VA 14.11 
+     22181 Vienna, VA 16.13 
+     22182 Vienna, VA 14.34 
+     22183 Vienna, VA 16.72 
+     22184 Vienna, VA 16.72 
+     22185 Vienna, VA 16.72 
+     22199 Lorton, VA 16.72 
+     22201 Arlington, VA 5.71 
+     22202 Arlington, VA 4.69 
+     22203 Arlington, VA 6.90 
+     22204 Arlington, VA 6.35 
+     22205 Arlington, VA 8.12 
+     22206 Arlington, VA 6.67 
+     22207 Arlington, VA 7.34 
+     22209 Arlington, VA 4.53 
+     22210 Arlington, VA 6.71 
+     22211 Ft Myer, VA 4.47 
+     22212 Arlington, VA 6.71 
+     22213 Arlington, VA 9.31 
+     22214 Arlington, VA 6.71 
+     22215 Arlington, VA 6.71 
+     22216 Arlington, VA 6.71 
+     22217 Arlington, VA 6.71 
+     22218 Arlington, VA 6.71 
+     22219 Arlington, VA 6.71 
+     22222 Arlington, VA 4.37 
+     22223 Arlington, VA 6.71 
+     22225 Arlington, VA 6.71 
+     22226 Arlington, VA 6.14 
+     22227 Arlington, VA 6.71 
+     22229 Arlington, VA 6.71 
+     22230 Arlington, VA 6.62 
+     22234 Arlington, VA 6.71 
+     22240 Arlington, VA 4.52 
+     22241 Arlington, VA 6.71 
+     22242 Arlington, VA 4.82 
+     22243 Arlington, VA 4.33 
+     22244 Arlington, VA 4.63 
+     22245 Arlington, VA 4.78 
+     22246 Arlington, VA 6.71 
+     22301 Alexandria, VA 6.72 
+     22302 Alexandria, VA 6.99 
+     22303 Alexandria, VA 8.91 
+     22304 Alexandria, VA 9.13 
+     22305 Alexandria, VA 5.97 
+     22306 Alexandria, VA 11.23 
+     22307 Alexandria, VA 9.51 
+     22308 Alexandria, VA 12.49 
+     22309 Alexandria, VA 13.71 
+     22310 Alexandria, VA 10.84 
+     22311 Alexandria, VA 8.27 
+     22312 Alexandria, VA 10.52 
+     22313 Alexandria, VA 7.98 
+     22314 Alexandria, VA 7.36 
+     22315 Alexandria, VA 13.21 
+     22320 Alexandria, VA 7.36 
+     22321 Alexandria, VA 16.72 
+     22331 Alexandria, VA 8.16 
+     22332 Alexandria, VA 8.11 
+     22333 Alexandria, VA 7.98 
+     22334 Alexandria, VA 7.98 
+     22336 Alexandria, VA 7.98 
 
-The farthest locaiton is: 64451, Forest City, MO, 29.78
+The farthest locaiton is: 20878, Gaithersburg, MD, 19.85
