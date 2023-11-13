@@ -2,7 +2,6 @@ package project01;
 
 import java.util.*;
 import java.io.*;
-import javax.swing.*;
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 
