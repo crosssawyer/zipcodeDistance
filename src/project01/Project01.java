@@ -50,6 +50,7 @@ public class Project01 {
         String cords = find(zipcode, readFile);
         readFile = new Scanner(inputFile);
         showMatches(cords, readFile, miles);
+        userinput.close();
 
     }
 
