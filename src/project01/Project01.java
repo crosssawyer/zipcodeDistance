@@ -142,9 +142,7 @@ public class Project01 {
             for (int y = 2; y < 3; y++) {
                 cords = fulllist[x][y].split(" ");
                 double lat2 = Double.parseDouble(cords[0]);
-                // System.out.println(lat2);
                 double long2 = Double.parseDouble(cords[1]);
-                // System.out.println(long2);
                 double distance = distance(lat1, long1, lat2, long2);
                 String zip = fulllist[x][0]; // get values from same row of x
                 String city = fulllist[x][1];
@@ -173,9 +171,7 @@ public class Project01 {
         lat2 = Math.toRadians(lat2);
         long1 = Math.toRadians(long1);
         long2 = Math.toRadians(long2);
-        double distanceMiles = RADIUS * (Math
-                .acos(Math.sin(lat1) * Math.sin(lat2) + Math.cos(lat1) * Math.cos(lat2) * Math.cos(long1 - long2)));
-        return distanceMiles;
+        return RADIUS * (Math.acos(Math.sin(lat1) * Math.sin(lat2) + Math.cos(lat1) * Math.cos(lat2) * Math.cos(long1 - long2)));
     }
 
     public static String findMaxDistance(String zip, String city, double distance) { // method that compares distance to
