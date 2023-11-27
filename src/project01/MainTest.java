@@ -5,6 +5,9 @@ import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
+
+import javax.swing.*;
+
 import static org.junit.Assert.*;
 
 
@@ -45,6 +48,15 @@ public class MainTest {
         assertEquals(expected, result);
     }
 
+    @Test
+    public void testValidateZipFaillength(){
+        String long_zip = "129498029";
+        boolean expected = false;
+        boolean result = Project01.validateZip(long_zip);
+        assertEquals(expected,result);
+
+    }
+
         @Test
     public void testValidateMiles(){
         String miles = "60";
@@ -60,6 +72,15 @@ public class MainTest {
         boolean result = Project01.validateMiles(miles);
         assertEquals(expected, result);
     }
+
+    @Test
+    public void testValidateMileFailString(){
+        String miles = "fail";
+        boolean expected = false;
+        boolean result = Project01.validateMiles(miles);
+        assertEquals(expected, result);
+    }
+
 
     
 }

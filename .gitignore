@@ -1,3 +1,5 @@
 ZipCodeOutput.txt
 out/
 nbproject/private
+.idea/
+zipcodeDistance.iml
