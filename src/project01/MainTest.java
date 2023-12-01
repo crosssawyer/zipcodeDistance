@@ -9,9 +9,6 @@ import static org.junit.Assert.*;
 
 import javax.swing.*;
 
-import static org.junit.Assert.*;
-
-
 
 public class MainTest {
 
