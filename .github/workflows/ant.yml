@@ -22,4 +22,4 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
     - name: Run Tests
-      run: ant -f build.mxl -do-init-
+      run: ant -f build.xml -do-init-
